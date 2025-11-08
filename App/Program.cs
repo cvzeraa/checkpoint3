@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Para qual canal você quer enviar mensagem?");
 Console.WriteLine("1. WhatsApp");
 Console.WriteLine("2. Telegram");
@@ -22,3 +22,4 @@ if(canal == 1)
 
     whats.EnviarMensagem("87654321", video);
 }
+
