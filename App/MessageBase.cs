@@ -1,11 +1,9 @@
-using System.Data;
-
 public abstract class MessageBase
 {
     protected MessageBase(string message)
     {
         Message = message;
-        SendAt = DataSetDateTime.Now;
+        SendAt = DateTime.Now;
     }
 
     public string Message { get; }
